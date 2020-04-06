@@ -36,6 +36,9 @@ module.exports = {
             '10/12': '83.333333%',
             '11/12': '91.666667%',
         },
+        height: {
+
+        },
         letterSpacing: {
             'widest-plus': '0.25em',
         },

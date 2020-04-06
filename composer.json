@@ -9,6 +9,10 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
+        "browner12/helpers": "^3.1",
+        "browner12/uploader": "^5.0",
+        "calebporzio/awesome-helpers": "^2.4",
+        "contentful/laravel": "^6.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
@@ -16,6 +20,7 @@
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "livewire/livewire": "^1.0",
+        "raiym/instagram-php-scraper": "^0.9.7",
         "spatie/opening-hours": "^2.7"
     },
     "require-dev": {

@@ -14,7 +14,9 @@ require('laravel-mix-purgecss');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
+mix.copyDirectory('resources/images', 'public/images')
+   .copyDirectory('resources/fonts', 'public/fonts')
+   .js('resources/js/app.js', 'public/js')
    .postCss('resources/css/app.css', 'public/css')
    .tailwind('./tailwind.config.js');
 

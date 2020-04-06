@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ app()->getLocale() }}">
+<html lang="{{ app()->getLocale() }}" class="text-lg"
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,12 +14,10 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     @livewireStyles
 </head>
-<body class="h-screen antialiased leading-none bg-white">
+<body class="h-screen antialiased leading-none bg-gray-200">
     <div id="app">
         @include('layouts.frontend.partials.header')
-        <div class="py-8">
-            @yield('content')
-        </div>
+        @yield('content')
         @include('layouts.frontend.partials.footer')
     </div>
 
